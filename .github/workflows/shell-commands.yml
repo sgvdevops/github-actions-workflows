@@ -10,10 +10,9 @@ jobs:
               run: echo "Namaste Bharat"
 
             - name: version of npm
-              run: npm -v
-
-            - name: version of nodejs
-              run: node -v
+              run: | 
+                npm -v
+                node -v
 
             - name: version of python
               run: python -v
