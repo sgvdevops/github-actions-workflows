@@ -15,4 +15,12 @@ jobs:
             - name: version of nodejs
               run: node -v
 
+            - name: version of python
+              run: python -v
+
+            - name: version of terraform 
+              run: terrform -v
+
+            - name: version of helm 
+              run: helm -v
             
