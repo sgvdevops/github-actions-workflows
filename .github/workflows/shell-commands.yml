@@ -18,9 +18,8 @@ jobs:
             - name: version of python
               run: python -v
 
-            - name: version of terraform 
-              run: terrform -v
+            - name: version of maven 
+              run: maven -v
 
-            - name: version of helm 
-              run: helm -v
-            
+            - name: version of gardle 
+              run: gradle -v
