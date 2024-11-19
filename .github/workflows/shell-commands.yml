@@ -8,4 +8,11 @@ jobs:
         steps:
             - name: echo command
               run: echo "Namaste Bharat"
+
+            - name: version of npm
+              run: npm -v
+
+            - name: version of nodejs
+              run: node -v
+
             
