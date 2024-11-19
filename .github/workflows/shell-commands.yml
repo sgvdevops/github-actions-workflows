@@ -20,11 +20,11 @@ jobs:
                 print(platform.processor())
               shell: python
 
-    run-windows-command:
-        runs-on: windows-latest
-        steps:
-            - name: Directort Powershell
-              run: Get-Location
-            - name: Directort Bash
-              run: pwd
-              shell: bash
+    # run-windows-command:
+    #     runs-on: windows-latest
+    #     steps:
+    #         - name: Directort Powershell
+    #           run: Get-Location
+    #         - name: Directort Bash
+    #           run: pwd
+    #           shell: bash
