@@ -17,12 +17,3 @@ jobs:
 
             - name: version of python
               run: python -v
-
-            - name: install maven
-              run: sudo apt install maven
-
-            - name: version of maven 
-              run: maven -v
-
-            - name: version of gardle 
-              run: gradle -v
