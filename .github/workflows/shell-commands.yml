@@ -4,7 +4,7 @@ on : [push]
 
 jobs:
     run-shell-commands:
-        runs-on: ubuntu-latest
+        runs-on: self-hosted
         steps:
             - name: echo command
               run: echo "Namaste Bharat"
