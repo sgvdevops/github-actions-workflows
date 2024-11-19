@@ -1,0 +1,11 @@
+name: shell command
+
+on : [push]
+
+jobs:
+    run-shell-commands:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo command
+              run : echo"Namaste Bharat"
+            
